@@ -1,0 +1,25 @@
+from PIL import Image, ImageFilter
+import os
+
+# ##Завантажити зображення
+# MYimg = Image.open("flower-gerbel-3860634_960_720.webp")
+# # display(MYimg)
+
+
+# MYimg = MYimg.filter(ImageFilter.EMBOSS)
+# display(MYimg)
+
+
+# MYimg = MYimg.filter(ImageFilter.CONTOUR)
+# display(MYimg)
+
+
+
+# list1 = ["Harry_Potter_-_GoF_Promo.jpg","Harry_Potter_-_GoF_Promo.jpg"]
+# MYimg.display(sample(list1,1))
+
+# threshold = 20 
+# darkflow = MYimg.filter(ImageFilter.CONTOUR)
+# MYimg =darkflow.point(lambda p: p > threshold and 600)
+# display(MYimg)
+
